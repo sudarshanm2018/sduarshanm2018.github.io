@@ -1,0 +1,93 @@
+// Main Sass File
+$body-bg:	#262626;
+$font-color:#fff;
+$font-size:30px;
+
+body{
+  background:$body-bg;
+  color:$font-color;
+  .btn{
+    border-radius: 0;
+  }
+}
+
+.navbar{
+  border-bottom: 5px solid #ffff48;
+  background:#292b2c;
+  opacity:0.7;
+  .nav-link{
+    font-size: 20px;
+  }
+  .nav-link:hover{
+    background: #6edb00;
+    border-radius:5px;
+  }
+}
+
+#head-section{
+  background: url('../img/bg.jpg') no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+
+  .card-form{
+    opacity: 0.8;
+  }
+
+
+  .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    min-height: 700px;
+    }
+
+  .fa{
+background:#fff;
+font-size:$font-size;
+color:#008ed6;
+padding:4px;
+border-radius:5px;
+
+  }
+  .home-inner{
+    padding-top:150px;
+    padding-bottom:50px;
+  }
+}
+
+#explore-head-section{
+  background: $font-color;
+
+  .fa{
+    background:#262626;
+    font-size:$font-size;
+    color:#008ed6;
+    padding:4px;
+    border-radius:5px;
+  }
+}
+
+#create-section{
+  .fa{
+    background:$font-color;
+    font-size:$font-size;
+    color:#008ed6;
+    padding:4px;
+    border-radius:5px;
+  }
+}
+
+#share-head-section{
+  .fa{
+    background: #141414;
+    font-size:$font-size;
+    color:$font-color;
+    padding:4px;
+    border-radius: 5px;
+  }
+}
+
+@media(max-width: 768px){
+  #head-section h1{
+    font-size: 36px;
+  }
+}
